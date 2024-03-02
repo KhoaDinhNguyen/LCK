@@ -170,3 +170,8 @@ table {
     display: inline-block;  
     margin-bottom: 20px;  
 }
+
+.time {
+    color: #BFE7F8;
+    font-weight: bold;
+}
