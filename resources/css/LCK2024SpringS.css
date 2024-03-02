@@ -92,7 +92,7 @@ table, th, td{
 }
 
 #Ranking thead th:nth-child(1) {
-    width: 2rem;
+    width: 3rem;
 }
 
 #Ranking tbody td:nth-child(1) {
@@ -140,28 +140,39 @@ table, th, td{
 
 #Schedule table {
     margin-left: 2em;
-    width: 15rem;
+    width: 15em;
     box-sizing: border-box;
     font-size: 1rem;
 }
 
 #Schedule table img{
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.2em;
+    height: 1.2em;
 }
 
-#Schedule tbody td:nth-child(1), tbody td:nth-child(4) {
-    width: 10rem;
+#Schedule thead th:nth-child(1), #Schedule thead th:nth-child(4) {
+    width: 5em;
     text-align: center;
     padding: 0.5rem;
 } 
 
-#Schedule td:nth-child(2), tbody td:nth-child(3) {
-    width: 5rem;
+#Schedule thead th:nth-child(2), #Schedule thead th:nth-child(3) {
+    width: 5em;
     text-align: center;
 } 
 
-#Schedule .w{
+#Schedule tbody td:nth-child(1), #Schedule tbody td:nth-child(4) {
+    width: 5em;
+    text-align: center;
+    padding: 0.5rem;
+} 
+
+#Schedule tbody td:nth-child(2), #Schedule tbody td:nth-child(3) {
+    width: 5em;
+    text-align: center;
+} 
+
+#Schedule .w, #Ranking .w{
     background-color: rgb(45, 131, 45);
     font-weight: bold;
 }
